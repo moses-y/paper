@@ -1,8 +1,8 @@
 # A Programming Paradigm for Spatiotemporal Composability
 
-**[Read the paper (PDF)](paper.pdf)** · Draft of August 26, 2026
+**[Read the paper on arXiv](https://arxiv.org/abs/2608.25512)** · arXiv:2608.25512 [cs.PL]
 
-> This is a preprint under active revision. The content may change substantially; please cite the latest version and check back before relying on specific results.
+> This is a preprint under active revision. The arXiv page above always serves the latest version; please cite accordingly.
 
 ## Abstract
 
@@ -13,6 +13,20 @@ We formalize _reactive coeffects_, in which every context change is classified a
 We then unify the effect context and the coeffect context into a single context type and mediate every effect and coeffect through it, yielding a discipline we call the _context paradigm_; the mediation induces an observational equivalence up to which the effects of distinct components interleave without disturbing one another.
 Combining these mechanisms into the notion of a _component_, we give a calculus of dynamic composition whose metatheory carries spatiotemporal composability from a single component to a whole system of interleaved components.
 We implement these ideas in _Cordis_, a meta-framework of spatiotemporal composability that provides a core library with effect tracking and coeffect resolution, as well as a declarative component loader with configuration reconciliation and hot module replacement.
+
+## Citation
+
+```bibtex
+@misc{shi2026cordis,
+  title         = {A Programming Paradigm for Spatiotemporal Composability},
+  author        = {Shi, Yifan and Zhang, Wei and Cui, Tianyi},
+  year          = {2026},
+  eprint        = {2608.25512},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.PL},
+  url           = {https://arxiv.org/abs/2608.25512},
+}
+```
 
 ## Acknowledgments
 
